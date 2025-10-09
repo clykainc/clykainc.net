@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clykainc - Home</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Catppuccin Mocha Colors */
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --surface2: #585b70;
+            --overlay0: #6c7086;
+            --overlay1: #7f849c;
+            --overlay2: #9399b2;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --subtext0: #a6adc8;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+            --sapphire: #74c7ec;
+            --sky: #89dceb;
+            --teal: #94e2d5;
+            --green: #a6e3a1;
+            --yellow: #f9e2af;
+            --peach: #fab387;
+            --maroon: #eba0ac;
+            --red: #f38ba8;
+            --mauve: #cba6f7;
+            --pink: #f5c2e7;
+            --flamingo: #f2cdcd;
+            --rosewater: #f5e0dc;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: var(--mantle);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--surface0);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--mauve);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .logo:hover {
+            color: var(--pink);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--blue);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, var(--surface0) 0%, var(--mantle) 100%);
+            border-radius: 12px;
+            margin-bottom: 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--mauve), var(--blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--subtext0);
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background-color: var(--blue);
+            color: var(--crust);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--sapphire);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: var(--surface1);
+            color: var(--text);
+            border: 2px solid var(--blue);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--surface2);
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            color: var(--lavender);
+            text-align: center;
+        }
+
+        /* Content Grid */
+        .content-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .card {
+            background-color: var(--surface0);
+            border-radius: 12px;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: stretch;
+            overflow: hidden;
+            min-height: 180px;
+            position: relative;
+        }
+
+        .card:hover {
+            transform: translateX(10px);
+            border-color: var(--blue);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-media {
+            position: relative;
+            width: 25%;
+            background: linear-gradient(135deg, var(--mauve), var(--blue));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .card-media::after {
+            content: '';
+            position: absolute;
+            right: -1px;
+            top: 0;
+            bottom: 0;
+            width: 60px;
+            background: var(--surface0);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+            transform: skewX(-10deg);
+            transform-origin: bottom;
+        }
+
+        .card-icon {
+            font-size: 3rem;
+            z-index: 1;
+            position: relative;
+        }
+
+        .card-content {
+            flex-grow: 1;
+            padding: 2rem;
+            padding-left: 3rem;
+        }
+
+        .card h3 {
+            color: var(--blue);
+            margin-bottom: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .card p {
+            color: var(--subtext0);
+            margin-bottom: 1rem;
+        }
+
+        .card-link {
+            color: var(--mauve);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        .card-link:hover {
+            color: var(--pink);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--mantle);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            border-top: 2px solid var(--surface0);
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .footer-section h4 {
+            color: var(--blue);
+            margin-bottom: 1rem;
+        }
+
+        .footer-section a {
+            color: var(--subtext0);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--blue);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-links a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: var(--surface1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+        }
+
+        .social-links a:hover {
+            background-color: var(--blue);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--surface0);
+            color: var(--subtext0);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                gap: 1rem;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.1rem;
+            }
+
+            .card {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .card-media {
+                width: 100%;
+                min-height: 120px;
+            }
+
+            .card-media::after {
+                display: none;
+            }
+
+            .card-content {
+                padding: 2rem;
+            }
+
+            .card:hover {
+                transform: translateY(-5px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Clykainc</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Welcome to My Hub</h1>
+            <p>Your one-stop destination for podcasts, blog posts, vlogs, and professional resources</p>
+            <div class="cta-buttons">
+                <a href="podcast.html" class="btn btn-primary">Listen to Podcast</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Explore Content Section -->
+        <h2 class="section-title">Explore Content</h2>
+        <div class="content-grid">
+            <a href="podcast.html" class="card" style="text-decoration: none; color: inherit;">
+                <div class="card-media">
+                    <div class="card-icon">🎙️</div>
+                </div>
+                <div class="card-content">
+                    <h3>Podcast</h3>
+                    <p>Deep conversations and insights on topics that matter. New episodes every week.</p>
+                    <span class="card-link">Listen Now →</span>
+                </div>
+            </a>
+
+            <a href="blog.html" class="card" style="text-decoration: none; color: inherit;">
+                <div class="card-media">
+                    <div class="card-icon">📝</div>
+                </div>
+                <div class="card-content">
+                    <h3>Blog</h3>
+                    <p>Thoughts, tutorials, and stories from my journey. Written with care and attention.</p>
+                    <span class="card-link">Read Articles →</span>
+                </div>
+            </a>
+
+            <a href="videos.html" class="card" style="text-decoration: none; color: inherit;">
+                <div class="card-media">
+                    <div class="card-icon">🎥</div>
+                </div>
+                <div class="card-content">
+                    <h3>Videos</h3>
+                    <p>Visual stories and behind-the-scenes content.</p>
+                    <span class="card-link">Watch Videos →</span>
+                </div>
+            </a>
+
+            <a href="about.html" class="card" style="text-decoration: none; color: inherit;">
+                <div class="card-media">
+                    <div class="card-icon">👤</div>
+                </div>
+                <div class="card-content">
+                    <h3>About Me</h3>
+                    <p>Learn more about my background, experience, and what drives my work.</p>
+                    <span class="card-link">My Story & Resume →</span>
+                </div>
+            </a>
+
+            <a href="resources.html" class="card" style="text-decoration: none; color: inherit;">
+                <div class="card-media">
+                    <div class="card-icon">📚</div>
+                </div>
+                <div class="card-content">
+                    <h3>Resources</h3>
+                    <p>Documentation, guides, and helpful materials for your reference.</p>
+                    <span class="card-link">Browse Resources →</span>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Content</h4>
+                <a href="podcast.html">Podcast</a>
+                <a href="blog.html">Blog</a>
+                <a href="videos.html">Videos</a>
+                <a href="resources.html">Resources</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>About</h4>
+                <a href="about.html">About Me</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#">📧</a>
+                    <a href="#">🐦</a>
+                    <a href="#">💼</a>
+                    <a href="#">📺</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2025 Clykainc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
