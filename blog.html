@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Clykainc</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --surface2: #585b70;
+            --overlay0: #6c7086;
+            --overlay1: #7f849c;
+            --text: #cdd6f4;
+            --subtext0: #a6adc8;
+            --blue: #89b4fa;
+            --lavender: #b4befe;
+            --sapphire: #74c7ec;
+            --mauve: #cba6f7;
+            --pink: #f5c2e7;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: var(--mantle);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--surface0);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--mauve);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .logo:hover {
+            color: var(--pink);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            transition: color 0.3s;
+            font-weight: 500;
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--blue);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .blog-featured {
+            background-color: var(--surface0);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 3rem;
+            border: 2px solid var(--blue);
+            transition: all 0.3s;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .blog-featured:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .blog-featured-image {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, var(--mauve), var(--blue), var(--sapphire));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 6rem;
+        }
+
+        .blog-featured-content {
+            padding: 3rem;
+        }
+
+        .blog-featured-badge {
+            display: inline-block;
+            background-color: var(--blue);
+            color: var(--base);
+            padding: 0.4rem 1rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .blog-featured-content h2 {
+            color: var(--lavender);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .blog-featured-excerpt {
+            color: var(--subtext0);
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .blog-featured-meta {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--overlay1);
+            font-size: 0.95rem;
+        }
+
+        .episode-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .episode-tag {
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            background-color: var(--surface2);
+            color: var(--text);
+            font-size: 0.85rem;
+            border: 1px solid var(--overlay0);
+        }
+
+        .blog-search {
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .blog-search input {
+            width: 100%;
+            padding: 1rem 1.5rem 1rem 3rem;
+            background-color: var(--surface0);
+            border: 2px solid var(--surface2);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 1rem;
+            transition: all 0.3s;
+        }
+
+        .blog-search input:focus {
+            outline: none;
+            border-color: var(--blue);
+            box-shadow: 0 0 0 3px rgba(137, 180, 250, 0.1);
+        }
+
+        .blog-search input::placeholder {
+            color: var(--overlay1);
+        }
+
+        .blog-search-icon {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2rem;
+        }
+
+        .blog-filters {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 3rem;
+            align-items: center;
+        }
+
+        .filter-label {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .filter-tag {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            background-color: var(--surface1);
+            color: var(--subtext0);
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .filter-tag:hover {
+            border-color: var(--blue);
+            color: var(--blue);
+        }
+
+        .filter-tag.active {
+            background-color: var(--blue);
+            color: var(--base);
+            border-color: var(--blue);
+        }
+
+        .blog-articles {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-article-card {
+            background-color: var(--surface0);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .blog-article-card:hover {
+            border-color: var(--blue);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .blog-article-image {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, var(--surface1), var(--surface2));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+        }
+
+        .blog-article-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .blog-article-content h3 {
+            color: var(--blue);
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .blog-article-meta {
+            color: var(--overlay1);
+            font-size: 0.85rem;
+            margin-bottom: 1rem;
+        }
+
+        .blog-article-excerpt {
+            color: var(--subtext0);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .blog-article-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .blog-article-tag {
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            background-color: var(--surface2);
+            color: var(--text);
+            font-size: 0.8rem;
+            border: 1px solid var(--overlay0);
+        }
+
+        footer {
+            background-color: var(--mantle);
+            padding: 3rem 2rem;
+            margin-top: 4rem;
+            border-top: 2px solid var(--surface0);
+            text-align: center;
+        }
+
+        .copyright {
+            color: var(--subtext0);
+        }
+
+        @media (max-width: 768px) {
+            .blog-featured-image {
+                height: 250px;
+            }
+
+            .blog-featured-content {
+                padding: 2rem;
+            }
+
+            .blog-featured-content h2 {
+                font-size: 2rem;
+            }
+
+            .blog-articles {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Clykainc</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <a href="blog/github-pages-guide.html" class="blog-featured">
+            <div class="blog-featured-image">📝</div>
+            <div class="blog-featured-content">
+                <span class="blog-featured-badge">Featured</span>
+                <h2>Getting Started with GitHub Pages: A Complete Guide</h2>
+                <div class="blog-featured-meta">
+                    <span>📅 October 5, 2025</span>
+                    <span>⏱️ 8 min read</span>
+                    <span>👁️ 2.3K views</span>
+                </div>
+                <p class="blog-featured-excerpt">
+                    A comprehensive guide to hosting your website on GitHub Pages. From setup to deployment, everything you need to know to get your site live in minutes.
+                </p>
+                <div class="episode-tags">
+                    <span class="episode-tag">Web Development</span>
+                    <span class="episode-tag">Tutorial</span>
+                    <span class="episode-tag">GitHub</span>
+                </div>
+            </div>
+        </a>
+
+        <div class="blog-search">
+            <span class="blog-search-icon">🔍</span>
+            <input type="text" id="blog-search-input" placeholder="Search articles..." onkeyup="searchArticles()">
+        </div>
+
+        <div class="blog-filters">
+            <span class="filter-label">Filter by topic:</span>
+            <button class="filter-tag active" onclick="filterBlogPosts('all')">All Articles</button>
+            <button class="filter-tag" onclick="filterBlogPosts('web development')">Web Development</button>
+            <button class="filter-tag" onclick="filterBlogPosts('design')">Design</button>
+            <button class="filter-tag" onclick="filterBlogPosts('productivity')">Productivity</button>
+            <button class="filter-tag" onclick="filterBlogPosts('tutorial')">Tutorials</button>
+            <button class="filter-tag" onclick="filterBlogPosts('opinion')">Opinion</button>
+        </div>
+
+        <div class="blog-articles" id="blog-articles-container">
+            <a href="blog/github-pages-guide.html" class="blog-article-card" data-tags="web development tutorial" data-title="getting started with github pages" data-content="comprehensive guide hosting website github pages setup deployment">
+                <div class="blog-article-image">📝</div>
+                <div class="blog-article-content">
+                    <h3>Getting Started with GitHub Pages</h3>
+                    <div class="blog-article-meta">📅 October 5, 2025 • ⏱️ 8 min read • 🔄 Updated</div>
+                    <p class="blog-article-excerpt">
+                        A comprehensive guide to hosting your website on GitHub Pages. From setup to deployment, everything you need to know to get your site live.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Web Development</span>
+                        <span class="blog-article-tag">Tutorial</span>
+                        <span class="blog-article-tag">GitHub</span>
+                    </div>
+                </div>
+            </a>
+
+            <a href="blog/minimalist-design.html" class="blog-article-card" data-tags="design tutorial" data-title="the art of minimalist design" data-content="why less is more in web design exploring principles minimalism">
+                <div class="blog-article-image">🎨</div>
+                <div class="blog-article-content">
+                    <h3>The Art of Minimalist Design</h3>
+                    <div class="blog-article-meta">📅 September 28, 2025 • ⏱️ 6 min read</div>
+                    <p class="blog-article-excerpt">
+                        Why less is more in web design. Exploring the principles of minimalism and how to apply them effectively to create beautiful interfaces.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Design</span>
+                        <span class="blog-article-tag">Tutorial</span>
+                        <span class="blog-article-tag">UI/UX</span>
+                    </div>
+                </div>
+            </a>
+
+            <article class="blog-article-card" data-tags="productivity opinion" data-title="my favorite productivity tools" data-content="curated list tools apps transformed work">
+                <div class="blog-article-image">🛠️</div>
+                <div class="blog-article-content">
+                    <h3>My Favorite Productivity Tools in 2025</h3>
+                    <div class="blog-article-meta">📅 September 15, 2025 • ⏱️ 10 min read</div>
+                    <p class="blog-article-excerpt">
+                        A curated list of tools and apps that have transformed how I work. Honest reviews and recommendations.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Productivity</span>
+                        <span class="blog-article-tag">Opinion</span>
+                        <span class="blog-article-tag">Tools</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-article-card" data-tags="web development tutorial" data-title="building responsive layouts" data-content="css grid techniques flexible responsive">
+                <div class="blog-article-image">💻</div>
+                <div class="blog-article-content">
+                    <h3>Building Responsive Layouts with CSS Grid</h3>
+                    <div class="blog-article-meta">📅 September 8, 2025 • ⏱️ 12 min read</div>
+                    <p class="blog-article-excerpt">
+                        Master modern CSS Grid techniques to create flexible, responsive layouts. Complete with code examples.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Web Development</span>
+                        <span class="blog-article-tag">Tutorial</span>
+                        <span class="blog-article-tag">CSS</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-article-card" data-tags="design opinion" data-title="future web design trends" data-content="emerging design trends predictions">
+                <div class="blog-article-image">🚀</div>
+                <div class="blog-article-content">
+                    <h3>The Future of Web Design Trends</h3>
+                    <div class="blog-article-meta">📅 August 30, 2025 • ⏱️ 7 min read</div>
+                    <p class="blog-article-excerpt">
+                        Exploring emerging design trends and predictions for the future of web design and user interfaces.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Design</span>
+                        <span class="blog-article-tag">Opinion</span>
+                        <span class="blog-article-tag">Trends</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-article-card" data-tags="web development tutorial" data-title="javascript es2025 features" data-content="latest javascript features examples">
+                <div class="blog-article-image">⚡</div>
+                <div class="blog-article-content">
+                    <h3>JavaScript ES2025: New Features</h3>
+                    <div class="blog-article-meta">📅 August 22, 2025 • ⏱️ 15 min read</div>
+                    <p class="blog-article-excerpt">
+                        A comprehensive overview of the latest JavaScript features in ES2025 with practical examples.
+                    </p>
+                    <div class="blog-article-tags">
+                        <span class="blog-article-tag">Web Development</span>
+                        <span class="blog-article-tag">Tutorial</span>
+                        <span class="blog-article-tag">JavaScript</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy; 2025 Clykainc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function filterBlogPosts(tag) {
+            const articles = document.querySelectorAll('.blog-article-card');
+            const filterButtons = document.querySelectorAll('.blog-filters .filter-tag');
+            
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            document.getElementById('blog-search-input').value = '';
+            
+            articles.forEach(article => {
+                if (tag === 'all') {
+                    article.style.display = 'flex';
+                } else {
+                    const articleTags = article.getAttribute('data-tags');
+                    if (articleTags && articleTags.includes(tag.toLowerCase())) {
+                        article.style.display = 'flex';
+                    } else {
+                        article.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        function searchArticles() {
+            const searchInput = document.getElementById('blog-search-input').value.toLowerCase();
+            const articles = document.querySelectorAll('.blog-article-card');
+            
+            if (searchInput.length > 0) {
+                const filterButtons = document.querySelectorAll('.blog-filters .filter-tag');
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                filterButtons[0].classList.add('active');
+            }
+            
+            articles.forEach(article => {
+                const title = article.getAttribute('data-title');
+                const content = article.getAttribute('data-content');
+                const tags = article.getAttribute('data-tags');
+                
+                const searchableText = `${title} ${content} ${tags}`.toLowerCase();
+                
+                if (searchableText.includes(searchInput)) {
+                    article.style.display = 'flex';
+                } else {
+                    article.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
