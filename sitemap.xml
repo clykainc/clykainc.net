@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://clykainc.net/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://clykainc.net/</loc>
+</url>
+<url>
+<loc>https://clykainc.net/digital-minimalism-cal-newport.html</loc>
+<lastmod>2025-10-28T09:05:28-04:00</lastmod>
+</url>
+<url>
+<loc>https://clykainc.net/home.html</loc>
+<lastmod>2025-10-28T09:16:07-04:00</lastmod>
+</url>
+<url>
+<loc>https://clykainc.net/tes-2.html</loc>
+<lastmod>2025-10-28T08:39:05-04:00</lastmod>
+</url>
+<url>
+<loc>https://clykainc.net/tes.html</loc>
+<lastmod>2025-10-28T08:39:17-04:00</lastmod>
+</url>
+<url>
+<loc>https://clykainc.net/test.html</loc>
+<lastmod>2025-10-28T08:36:11-04:00</lastmod>
+<image:image>
+<image:loc>https://clykainc.net/media/posts/6/8f75fb1c-0318-47fb-85d0-5fa85e299b52.jfif</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+</urlset>

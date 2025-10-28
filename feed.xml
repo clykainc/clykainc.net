@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Clykainc</title>
+    <link href="https://clykainc.net/feed.xml" rel="self" />
+    <link href="https://clykainc.net" />
+    <updated>2025-10-28T09:05:28-04:00</updated>
+    <author>
+        <name>Clay</name>
+    </author>
+    <id>https://clykainc.net</id>
+
+    <entry>
+        <title>Digital Minimalism - Cal Newport</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/digital-minimalism-cal-newport.html"/>
+        <id>https://clykainc.net/digital-minimalism-cal-newport.html</id>
+            <category term="Reading Log"/>
+
+        <updated>2025-10-28T09:05:28-04:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Test</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/test.html"/>
+        <id>https://clykainc.net/test.html</id>
+        <media:content url="https://clykainc.net/media/posts/6/8f75fb1c-0318-47fb-85d0-5fa85e299b52.jfif" medium="image" />
+            <category term="Gradient"/>
+
+        <updated>2025-10-28T08:21:11-04:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>tes (copy)</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/tes-2.html"/>
+        <id>https://clykainc.net/tes-2.html</id>
+            <category term="Blog"/>
+
+        <updated>2025-10-28T08:07:05-04:00</updated>
+            <summary>
+                <![CDATA[
+                    🎨 Design Spotlight This is your custom box. Replace this text, add images, links, or anything. Pro tip: Upload images via the media button below.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="publii-box" style="background: #f9f9f9; border-left: 5px solid #3498db; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<h3 style="margin-top: 0; color: #2c3e50;">🎨 Design Spotlight</h3>
+<p>This is your custom box. Replace this text, add images, links, or anything.</p>
+<p><strong>Pro tip:</strong> Upload images via the media button below.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>tes</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/tes.html"/>
+        <id>https://clykainc.net/tes.html</id>
+            <category term="Blog"/>
+
+        <updated>2025-10-28T07:35:41-04:00</updated>
+            <summary>
+                <![CDATA[
+                    🎨 Design Spotlight This is your custom box. Replace this text, add images, links, or anything. Pro tip: Upload images via the media button below.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="publii-box" style="background: #f9f9f9; border-left: 5px solid #3498db; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<h3 style="margin-top: 0; color: #2c3e50;">🎨 Design Spotlight</h3>
+<p>This is your custom box. Replace this text, add images, links, or anything.</p>
+<p><strong>Pro tip:</strong> Upload images via the media button below.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+</feed>
