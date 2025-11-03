@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2025-10-28T09:05:28-04:00</updated>
+    <updated>2025-11-02T20:41:14-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -23,13 +23,13 @@
         <content></content>
     </entry>
     <entry>
-        <title>Test</title>
+        <title>Mexico City GP 2025</title>
         <author>
             <name>Clay</name>
         </author>
         <link href="https://clykainc.net/test.html"/>
         <id>https://clykainc.net/test.html</id>
-        <media:content url="https://clykainc.net/media/posts/6/8f75fb1c-0318-47fb-85d0-5fa85e299b52.jfif" medium="image" />
+        <media:content url="https://clykainc.net/media/posts/6/Mexico-GP.png" medium="image" />
             <category term="Gradient"/>
 
         <updated>2025-10-28T08:21:11-04:00</updated>
@@ -43,16 +43,19 @@
         </author>
         <link href="https://clykainc.net/tes-2.html"/>
         <id>https://clykainc.net/tes-2.html</id>
+        <media:content url="https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif" medium="image" />
             <category term="Blog"/>
 
         <updated>2025-10-28T08:07:05-04:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif" alt="" />
                     🎨 Design Spotlight This is your custom box. Replace this text, add images, links, or anything. Pro tip: Upload images via the media button below.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif" class="type:primaryImage" alt="" /></p>
                 <div class="publii-box" style="background: #f9f9f9; border-left: 5px solid #3498db; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <h3 style="margin-top: 0; color: #2c3e50;">🎨 Design Spotlight</h3>
 <p>This is your custom box. Replace this text, add images, links, or anything.</p>
