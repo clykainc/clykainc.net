@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2025-11-04T09:35:12-05:00</updated>
+    <updated>2025-11-04T18:01:29-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -75,16 +75,38 @@
             <summary>
                 <![CDATA[
                         <img src="https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif" alt="" />
-                    🎨 Design Spotlight This is your custom box. Replace this text, add images, links, or anything. Pro tip: Upload images via the media button below.
+                    Designing with Clarity Good design doesn’t shout. It whispers — and still gets heard. This guide walks you through creating calm, confident content. Use Cmd/Ctrl + Shift + R to hard-refresh and clear cache when testing changes. Sites with consistent visual rhythm see 42% longer&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif" class="type:primaryImage" alt="" /></p>
-                <div class="publii-box" style="background: #f9f9f9; border-left: 5px solid #3498db; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<h3 style="margin-top: 0; color: #2c3e50;">🎨 Design Spotlight</h3>
-<p>This is your custom box. Replace this text, add images, links, or anything.</p>
-<p><strong>Pro tip:</strong> Upload images via the media button below.</p>
+                <hr class="nordic-line">
+<h2 class="nordic-heading">Designing with Clarity</h2>
+<div class="nordic-card dropcap">
+<p>Good design doesn’t shout. It whispers — and still gets heard. This guide walks you through creating calm, confident content.</p>
+</div>
+<div class="red-callout">
+<p>Use <code>Cmd/Ctrl + Shift + R</code> to hard-refresh and clear cache when testing changes.</p>
+</div>
+<!-- NEW: Spotlight Box -->
+<div class="spotlight-box">
+<h3 style="margin-top: 0; color: var(--nord1);">Reader Retention Stat</h3>
+<p>Sites with <em>consistent visual rhythm</em> see <strong>42% longer</strong> average session times.</p>
+</div>
+<hr class="nordic-line">
+<h2 class="nordic-heading">Core Principles</h2>
+<div class="nordic-card">
+<p>1. Space is content.<br>2. Color is punctuation.<br>3. Typography is voice.</p>
+</div>
+<!-- NEW: Key Takeaway -->
+<div class="takeaway-box">
+<p>Never underline text for emphasis — use <strong>bold</strong> or <em>color</em> instead. Underlines mean links.</p>
+</div>
+<p><a href="#contact" class="red-btn">Work With Me</a></p>
+<div class="wave-divider"><svg viewbox="0 0 1440 80" preserveaspectratio="none" aria-hidden="true"> <path fill="#eceff4" d="M0,30 Q360,60 720,30 T1440,30 L1440,80 L0,80 Z"></path> </svg></div>
+<div class="stats-box">
+<p>Got something cool to state use this box to do so.</p>
 </div>
             ]]>
         </content>

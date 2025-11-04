@@ -42,8 +42,8 @@
             "id": "https://clykainc.net/tes-2.html",
             "url": "https://clykainc.net/tes-2.html",
             "title": "tes (copy)",
-            "summary": "🎨 Design Spotlight This is your custom box. Replace this text, add images, links, or anything. Pro tip: Upload images via the media button below.",
-            "content_html": "<div class=\"publii-box\" style=\"background: #f9f9f9; border-left: 5px solid #3498db; padding: 1.5rem; margin: 2rem 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);\">\n<h3 style=\"margin-top: 0; color: #2c3e50;\">🎨 Design Spotlight</h3>\n<p>This is your custom box. Replace this text, add images, links, or anything.</p>\n<p><strong>Pro tip:</strong> Upload images via the media button below.</p>\n</div>",
+            "summary": "Designing with Clarity Good design doesn’t shout. It whispers — and still gets heard. This guide walks you through creating calm, confident content. Use Cmd/Ctrl + Shift + R to hard-refresh and clear cache when testing changes. Sites with consistent visual rhythm see 42% longer&hellip;",
+            "content_html": "<hr class=\"nordic-line\">\n<h2 class=\"nordic-heading\">Designing with Clarity</h2>\n<div class=\"nordic-card dropcap\">\n<p>Good design doesn’t shout. It whispers — and still gets heard. This guide walks you through creating calm, confident content.</p>\n</div>\n<div class=\"red-callout\">\n<p>Use <code>Cmd/Ctrl + Shift + R</code> to hard-refresh and clear cache when testing changes.</p>\n</div>\n<!-- NEW: Spotlight Box -->\n<div class=\"spotlight-box\">\n<h3 style=\"margin-top: 0; color: var(--nord1);\">Reader Retention Stat</h3>\n<p>Sites with <em>consistent visual rhythm</em> see <strong>42% longer</strong> average session times.</p>\n</div>\n<hr class=\"nordic-line\">\n<h2 class=\"nordic-heading\">Core Principles</h2>\n<div class=\"nordic-card\">\n<p>1. Space is content.<br>2. Color is punctuation.<br>3. Typography is voice.</p>\n</div>\n<!-- NEW: Key Takeaway -->\n<div class=\"takeaway-box\">\n<p>Never underline text for emphasis — use <strong>bold</strong> or <em>color</em> instead. Underlines mean links.</p>\n</div>\n<p><a href=\"#contact\" class=\"red-btn\">Work With Me</a></p>\n<div class=\"wave-divider\"><svg viewbox=\"0 0 1440 80\" preserveaspectratio=\"none\" aria-hidden=\"true\"> <path fill=\"#eceff4\" d=\"M0,30 Q360,60 720,30 T1440,30 L1440,80 L0,80 Z\"></path> </svg></div>\n<div class=\"stats-box\">\n<p>Got something cool to state use this box to do so.</p>\n</div>",
             "image": "https://clykainc.net/media/posts/5/2900c807-359a-4c49-b467-d977ef727c39.jfif",
             "author": {
                 "name": "Clay"
@@ -52,7 +52,7 @@
                    "Blog"
             ],
             "date_published": "2025-10-28T08:07:05-04:00",
-            "date_modified": "2025-10-28T09:20:55-04:00"
+            "date_modified": "2025-11-04T18:01:29-05:00"
         },
         {
             "id": "https://clykainc.net/tes.html",
