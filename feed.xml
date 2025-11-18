@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2025-11-13T11:01:25-05:00</updated>
+    <updated>2025-11-17T22:49:05-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -16,15 +16,18 @@
         </author>
         <link href="https://clykainc.net/gradient-regular-race-weekend-template-2.html"/>
         <id>https://clykainc.net/gradient-regular-race-weekend-template-2.html</id>
+        <media:content url="https://clykainc.net/media/posts/11/Copy-of-Copy-of-Hungary-GP-2024.png" medium="image" />
 
         <updated>2025-11-08T17:14:48-05:00</updated>
             <summary>
                 <![CDATA[
+                        <img src="https://clykainc.net/media/posts/11/Copy-of-Copy-of-Hungary-GP-2024.png" alt="" />
                     Listen to this Week's Podcast [Insert Episode] Round 21 of the 2025 Formula 1 season descended upon Interlagos, the famed São Paulo circuit where legends have been forged and titles shattered amid its unforgiving curves and storied straights. As the championship hurtles into the final&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://clykainc.net/media/posts/11/Copy-of-Copy-of-Hungary-GP-2024.png" class="type:primaryImage" alt="" /></p>
                 <h2 class="nordic-heading">Listen to this Week's Podcast</h2>
 <p><span style="color: #b96ad9;">[Insert Episode]</span></p>
 <hr class="nordic-line">
