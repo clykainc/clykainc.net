@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://clykainc.net/sci.html",
+            "url": "https://clykainc.net/sci.html",
+            "title": "Sci",
+            "summary": "Your Novel Title A living, breathing sci-fi universe — logs, transmissions, and world-building entries released as they’re written. The initial transmission from Europa Station was garbled, but one thing was clear: we are no longer alone… Diving team retrieved a perfectly smooth obsidian shard from&hellip;",
+            "content_html": "<!-- HERO -->\n<section class=\"chapter-hero\">\n<h1>Your Novel Title</h1>\n<br>\n<p class=\"subtitle\">A living, breathing sci-fi universe — logs, transmissions, and world-building entries released as they’re written.</p>\n<a href=\"#chapters\" class=\"cta\">Enter the Archive</a></section>\n<!-- CHAPTERS / LOGS GRID -->\n<section id=\"chapters\" class=\"chapters-section\">\n<div class=\"chapters-grid\"><a href=\"/log-01\" class=\"log-card\">\n<div class=\"log-header\"><span class=\"log-number\">LOG 001</span>\n<h2>First Contact Protocol</h2>\n<div class=\"date\">Stardate 1247.3</div>\n</div>\n<div class=\"log-body\">\n<p>The initial transmission from Europa Station was garbled, but one thing was clear: we are no longer alone…</p>\n<div class=\"read-more\">Read transmission</div>\n</div>\n</a> <a href=\"/log-02\" class=\"log-card\">\n<div class=\"log-header\"><span class=\"log-number\">LOG 002</span>\n<h2>Artifact Recovery</h2>\n<div class=\"date\">Stardate 1249.1</div>\n</div>\n<div class=\"log-body\">\n<p>Diving team retrieved a perfectly smooth obsidian shard from the trench. It’s warm to the touch and humming at 432 Hz…</p>\n<div class=\"read-more\">Continue reading</div>\n</div>\n</a> <!-- Add as many as you want --> <a href=\"/chapter-01\" class=\"log-card\">\n<div class=\"log-header\"><span class=\"log-number\">CHAPTER 01</span>\n<h2>The Long Night Begins</h2>\n<div class=\"date\">Published 07 Dec 2025</div>\n</div>\n<div class=\"log-body\">\n<p>Captain Elara Voss stared at the dying star through the viewport, knowing this would be humanity’s final leap…</p>\n<div class=\"read-more\">Begin chapter</div>\n</div>\n</a></div>\n</section>",
+            "author": {
+                "name": "Clay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-12-07T00:12:38-05:00",
+            "date_modified": "2025-12-07T00:13:19-05:00"
+        },
+        {
             "id": "https://clykainc.net/resources.html",
             "url": "https://clykainc.net/resources.html",
             "title": "Resources",
