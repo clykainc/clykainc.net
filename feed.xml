@@ -3,10 +3,243 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>1969-12-31T19:00:00-05:00</updated>
+    <updated>2025-12-07T00:02:01-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
     <id>https://clykainc.net</id>
 
+    <entry>
+        <title>Resources</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/resources.html"/>
+        <id>https://clykainc.net/resources.html</id>
+
+        <updated>2025-12-06T23:53:57-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Documentation Full guides &amp; API reference Step-by-step learning paths Discord, forums &amp; support Templates, assets &amp; tools
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <!-- 4 CUBE RESOURCE LINKS – paste anywhere -->
+<div class="resource-grid"><a href="https://example.com/docs" class="resource-box">
+<h3>Documentation</h3>
+<p>Full guides &amp; API reference</p>
+</a> <a href="https://example.com/tutorials" class="resource-box">
+<h3>Tutorials</h3>
+<p>Step-by-step learning paths</p>
+</a> <a href="https://example.com/community" class="resource-box">
+<h3>Community</h3>
+<p>Discord, forums &amp; support</p>
+</a> <a href="https://example.com/downloads" class="resource-box">
+<h3>Downloads</h3>
+<p>Templates, assets &amp; tools</p>
+</a></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Input</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/input.html"/>
+        <id>https://clykainc.net/input.html</id>
+
+        <updated>2025-12-06T22:16:28-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Openstax Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3. Visit Openstax → Massive collection of open textbooks. Especially if you are&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="timeline">
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Openstax</h3>
+<p>Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3.</p>
+<p> </p>
+<p><a href="https://openstax.org/">Visit Openstax →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Libretexts</h3>
+<p>Massive collection of open textbooks. Especially if you are interested in STEM related fields like Engineering and Biology.</p>
+<p> </p>
+<p><a href="https://commons.libretexts.org/">Visit LibreTexts commons →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Merlot</h3>
+<p>Another open-licensed peer-reviewed library of resources with an emphasis on higher education and multimedia materials.</p>
+<p> </p>
+<p><a href="https://merlot.org/merlot/index.htm">Visit MERLOT →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>MIT OpenCourseWare</h3>
+<p>Complete course materials from almost every MIT course since 2002. You find find courses on the arts and theatre to aerospace and quantum mechanics.</p>
+<p> </p>
+<p><a href="https://ocw.mit.edu/">Visit MIT OpenCourseWare →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>OER Commons</h3>
+<p>Huge searchable hub with materials from kindergarten through higher education and workforce training.</p>
+<p> </p>
+<p><a href="https://oercommons.org/">Visit OER commons →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Khan Academy</h3>
+<p>Can't forget about good ole' Khan Academy. K–12 and some college topics (especially math, science, test prep). They even have cirriculum up to linear algebra, multivariable calculus, and differential equation assistance as well!</p>
+<p> </p>
+<p><a href="https://www.khanacademy.org/">Visit Khan Academy →</a></p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>freeCodeCamp</h3>
+<p>Comprehensive coding curriculum with certifications - completely free</p>
+<p><a href="https://www.freecodecamp.org" target="_blank" class="resource-link" rel="noopener">Visit freeCodeCamp →</a></p>
+<p> </p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Public Launch</h3>
+<p>Officially live! The product is now available worldwide.</p>
+<p> </p>
+</div>
+</div>
+</div>
+<div class="resource-item">
+<div class="resource-icon"> </div>
+<div class="resource-content">
+<h3>MDN Web Docs</h3>
+<p>Best resource for web development documentation and tutorials</p>
+<a href="https://developer.mozilla.org" target="_blank" class="resource-link" rel="noopener">Visit MDN →</a></div>
+</div>
+<div class="resource-item">
+<div class="resource-icon"> </div>
+<div class="resource-content">
+<h3>The Odin Project</h3>
+<p>Full-stack curriculum with projects to build your portfolio</p>
+<a href="https://www.theodinproject.com" target="_blank" class="resource-link" rel="noopener">Visit The Odin Project →</a></div>
+</div>
+<div class="resource-item">
+<div class="resource-icon"> </div>
+<div class="resource-content"> </div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Ts</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/ts.html"/>
+        <id>https://clykainc.net/ts.html</id>
+
+        <updated>2025-12-06T18:50:51-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Project Started Kicked off the new initiative with the core team in Oslo. Completed the design system and shared it with stakeholders. Launched internal beta – early feedback has been excellent. Officially live! The product is now available worldwide.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div class="timeline">
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Project Started</h3>
+<p>Kicked off the new initiative with the core team in Oslo.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>First Milestone</h3>
+<p>Completed the design system and shared it with stakeholders.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Beta Release</h3>
+<p>Launched internal beta – early feedback has been excellent.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Public Launch</h3>
+<p>Officially live! The product is now available worldwide.</p>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Gradient Podcast Template</title>
+        <author>
+            <name>Clay</name>
+        </author>
+        <link href="https://clykainc.net/recapping-las-vegas-grand-prix-2025.html"/>
+        <id>https://clykainc.net/recapping-las-vegas-grand-prix-2025.html</id>
+
+        <updated>2025-11-24T12:42:01-05:00</updated>
+            <summary>
+                <![CDATA[
+                    Listen to this Week's Podcast [Insert Episode] For its third iteration of the Las Vegas Grand Prix twenty of the best drivers took to the streets of Sin City. With the longest track on the calendar, with some of the lowest grip of the season&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 class="nordic-heading">Listen to this Week's Podcast</h2>
+<p><span style="color: #b96ad9;">[Insert Episode]</span></p>
+<hr class="nordic-line">
+<div class="nordic-card dropcap">
+<p>For its third iteration of the Las Vegas Grand Prix twenty of the best drivers took to the streets of Sin City. With the longest track on the calendar, with some of the lowest grip of the season on a cold night in the desert with the appearance of rain sprinkled throughout as spectators we were treated with quite the show on the Las Vegas strip. Max claiming his 69th victory of his career on a weekend where McLaren dropped the ball mechanically causing a double DNF for the team has now opened the door for Max Verstappen to potentially take the title fight to all the way to Abu Dhabi. A good haul of points for Mercedes with a spectatular drive from Kimi Andrea Antonelli on 53 lap hard tires to claim P3 from P16 has soundly solidified Mercedes as P2 in the constructors by a good margin.</p>
+</div>
+<hr class="nordic-line">
+<h2 class="nordic-heading">The Highlights</h2>
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Project Started</h3>
+<p>Kicked off the new initiative with the core team in Oslo.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>First Milestone</h3>
+<p>Completed the design system and shared it with stakeholders.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Beta Release</h3>
+<p>Launched internal beta – early feedback has been excellent.</p>
+</div>
+</div>
+<div class="timeline-item">
+<div class="timeline-content">
+<h3>Public Launch</h3>
+<p>Officially live! The product is now available worldwide.</p>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
 </feed>

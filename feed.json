@@ -9,5 +9,61 @@
         "name": "Clay"
     },
     "items": [
+        {
+            "id": "https://clykainc.net/resources.html",
+            "url": "https://clykainc.net/resources.html",
+            "title": "Resources",
+            "summary": "Documentation Full guides &amp; API reference Step-by-step learning paths Discord, forums &amp; support Templates, assets &amp; tools",
+            "content_html": "<!-- 4 CUBE RESOURCE LINKS – paste anywhere -->\n<div class=\"resource-grid\"><a href=\"https://example.com/docs\" class=\"resource-box\">\n<h3>Documentation</h3>\n<p>Full guides &amp; API reference</p>\n</a> <a href=\"https://example.com/tutorials\" class=\"resource-box\">\n<h3>Tutorials</h3>\n<p>Step-by-step learning paths</p>\n</a> <a href=\"https://example.com/community\" class=\"resource-box\">\n<h3>Community</h3>\n<p>Discord, forums &amp; support</p>\n</a> <a href=\"https://example.com/downloads\" class=\"resource-box\">\n<h3>Downloads</h3>\n<p>Templates, assets &amp; tools</p>\n</a></div>",
+            "author": {
+                "name": "Clay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-12-06T23:53:57-05:00",
+            "date_modified": "2025-12-06T23:53:57-05:00"
+        },
+        {
+            "id": "https://clykainc.net/input.html",
+            "url": "https://clykainc.net/input.html",
+            "title": "Input",
+            "summary": "Openstax Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3. Visit Openstax → Massive collection of open textbooks. Especially if you are&hellip;",
+            "content_html": "<div class=\"timeline\">\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Openstax</h3>\n<p>Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3.</p>\n<p> </p>\n<p><a href=\"https://openstax.org/\">Visit Openstax →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Libretexts</h3>\n<p>Massive collection of open textbooks. Especially if you are interested in STEM related fields like Engineering and Biology.</p>\n<p> </p>\n<p><a href=\"https://commons.libretexts.org/\">Visit LibreTexts commons →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Merlot</h3>\n<p>Another open-licensed peer-reviewed library of resources with an emphasis on higher education and multimedia materials.</p>\n<p> </p>\n<p><a href=\"https://merlot.org/merlot/index.htm\">Visit MERLOT →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>MIT OpenCourseWare</h3>\n<p>Complete course materials from almost every MIT course since 2002. You find find courses on the arts and theatre to aerospace and quantum mechanics.</p>\n<p> </p>\n<p><a href=\"https://ocw.mit.edu/\">Visit MIT OpenCourseWare →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>OER Commons</h3>\n<p>Huge searchable hub with materials from kindergarten through higher education and workforce training.</p>\n<p> </p>\n<p><a href=\"https://oercommons.org/\">Visit OER commons →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Khan Academy</h3>\n<p>Can't forget about good ole' Khan Academy. K–12 and some college topics (especially math, science, test prep). They even have cirriculum up to linear algebra, multivariable calculus, and differential equation assistance as well!</p>\n<p> </p>\n<p><a href=\"https://www.khanacademy.org/\">Visit Khan Academy →</a></p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>freeCodeCamp</h3>\n<p>Comprehensive coding curriculum with certifications - completely free</p>\n<p><a href=\"https://www.freecodecamp.org\" target=\"_blank\" class=\"resource-link\" rel=\"noopener\">Visit freeCodeCamp →</a></p>\n<p> </p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Public Launch</h3>\n<p>Officially live! The product is now available worldwide.</p>\n<p> </p>\n</div>\n</div>\n</div>\n<div class=\"resource-item\">\n<div class=\"resource-icon\"> </div>\n<div class=\"resource-content\">\n<h3>MDN Web Docs</h3>\n<p>Best resource for web development documentation and tutorials</p>\n<a href=\"https://developer.mozilla.org\" target=\"_blank\" class=\"resource-link\" rel=\"noopener\">Visit MDN →</a></div>\n</div>\n<div class=\"resource-item\">\n<div class=\"resource-icon\"> </div>\n<div class=\"resource-content\">\n<h3>The Odin Project</h3>\n<p>Full-stack curriculum with projects to build your portfolio</p>\n<a href=\"https://www.theodinproject.com\" target=\"_blank\" class=\"resource-link\" rel=\"noopener\">Visit The Odin Project →</a></div>\n</div>\n<div class=\"resource-item\">\n<div class=\"resource-icon\"> </div>\n<div class=\"resource-content\"> </div>\n</div>",
+            "author": {
+                "name": "Clay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-12-06T22:16:28-05:00",
+            "date_modified": "2025-12-06T23:52:14-05:00"
+        },
+        {
+            "id": "https://clykainc.net/ts.html",
+            "url": "https://clykainc.net/ts.html",
+            "title": "Ts",
+            "summary": "Project Started Kicked off the new initiative with the core team in Oslo. Completed the design system and shared it with stakeholders. Launched internal beta – early feedback has been excellent. Officially live! The product is now available worldwide.",
+            "content_html": "<div class=\"timeline\">\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Project Started</h3>\n<p>Kicked off the new initiative with the core team in Oslo.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>First Milestone</h3>\n<p>Completed the design system and shared it with stakeholders.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Beta Release</h3>\n<p>Launched internal beta – early feedback has been excellent.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Public Launch</h3>\n<p>Officially live! The product is now available worldwide.</p>\n</div>\n</div>\n</div>",
+            "author": {
+                "name": "Clay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-12-06T18:50:51-05:00",
+            "date_modified": "2025-12-06T18:50:51-05:00"
+        },
+        {
+            "id": "https://clykainc.net/recapping-las-vegas-grand-prix-2025.html",
+            "url": "https://clykainc.net/recapping-las-vegas-grand-prix-2025.html",
+            "title": "Gradient Podcast Template",
+            "summary": "Listen to this Week's Podcast [Insert Episode] For its third iteration of the Las Vegas Grand Prix twenty of the best drivers took to the streets of Sin City. With the longest track on the calendar, with some of the lowest grip of the season&hellip;",
+            "content_html": "<h2 class=\"nordic-heading\">Listen to this Week's Podcast</h2>\n<p><span style=\"color: #b96ad9;\">[Insert Episode]</span></p>\n<hr class=\"nordic-line\">\n<div class=\"nordic-card dropcap\">\n<p>For its third iteration of the Las Vegas Grand Prix twenty of the best drivers took to the streets of Sin City. With the longest track on the calendar, with some of the lowest grip of the season on a cold night in the desert with the appearance of rain sprinkled throughout as spectators we were treated with quite the show on the Las Vegas strip. Max claiming his 69th victory of his career on a weekend where McLaren dropped the ball mechanically causing a double DNF for the team has now opened the door for Max Verstappen to potentially take the title fight to all the way to Abu Dhabi. A good haul of points for Mercedes with a spectatular drive from Kimi Andrea Antonelli on 53 lap hard tires to claim P3 from P16 has soundly solidified Mercedes as P2 in the constructors by a good margin.</p>\n</div>\n<hr class=\"nordic-line\">\n<h2 class=\"nordic-heading\">The Highlights</h2>\n<div class=\"timeline\">\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Project Started</h3>\n<p>Kicked off the new initiative with the core team in Oslo.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>First Milestone</h3>\n<p>Completed the design system and shared it with stakeholders.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Beta Release</h3>\n<p>Launched internal beta – early feedback has been excellent.</p>\n</div>\n</div>\n<div class=\"timeline-item\">\n<div class=\"timeline-content\">\n<h3>Public Launch</h3>\n<p>Officially live! The product is now available worldwide.</p>\n</div>\n</div>\n</div>",
+            "author": {
+                "name": "Clay"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-11-24T12:42:01-05:00",
+            "date_modified": "2025-12-07T00:02:01-05:00"
+        }
     ]
 }
