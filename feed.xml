@@ -66,39 +66,6 @@
         </content>
     </entry>
     <entry>
-        <title>Resources</title>
-        <author>
-            <name>Clay</name>
-        </author>
-        <link href="https://clykainc.net/resources.html"/>
-        <id>https://clykainc.net/resources.html</id>
-
-        <updated>2025-12-06T23:53:57-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Documentation Full guides &amp; API reference Step-by-step learning paths Discord, forums &amp; support Templates, assets &amp; tools
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <!-- 4 CUBE RESOURCE LINKS – paste anywhere -->
-<div class="resource-grid"><a href="https://example.com/docs" class="resource-box">
-<h3>Documentation</h3>
-<p>Full guides &amp; API reference</p>
-</a> <a href="https://example.com/tutorials" class="resource-box">
-<h3>Tutorials</h3>
-<p>Step-by-step learning paths</p>
-</a> <a href="https://example.com/community" class="resource-box">
-<h3>Community</h3>
-<p>Discord, forums &amp; support</p>
-</a> <a href="https://example.com/downloads" class="resource-box">
-<h3>Downloads</h3>
-<p>Templates, assets &amp; tools</p>
-</a></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
         <title>Ts</title>
         <author>
             <name>Clay</name>

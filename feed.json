@@ -24,20 +24,6 @@
             "date_modified": "2025-12-07T00:57:29-05:00"
         },
         {
-            "id": "https://clykainc.net/resources.html",
-            "url": "https://clykainc.net/resources.html",
-            "title": "Resources",
-            "summary": "Documentation Full guides &amp; API reference Step-by-step learning paths Discord, forums &amp; support Templates, assets &amp; tools",
-            "content_html": "<!-- 4 CUBE RESOURCE LINKS – paste anywhere -->\n<div class=\"resource-grid\"><a href=\"https://example.com/docs\" class=\"resource-box\">\n<h3>Documentation</h3>\n<p>Full guides &amp; API reference</p>\n</a> <a href=\"https://example.com/tutorials\" class=\"resource-box\">\n<h3>Tutorials</h3>\n<p>Step-by-step learning paths</p>\n</a> <a href=\"https://example.com/community\" class=\"resource-box\">\n<h3>Community</h3>\n<p>Discord, forums &amp; support</p>\n</a> <a href=\"https://example.com/downloads\" class=\"resource-box\">\n<h3>Downloads</h3>\n<p>Templates, assets &amp; tools</p>\n</a></div>",
-            "author": {
-                "name": "Clay"
-            },
-            "tags": [
-            ],
-            "date_published": "2025-12-06T23:53:57-05:00",
-            "date_modified": "2025-12-06T23:53:57-05:00"
-        },
-        {
             "id": "https://clykainc.net/ts.html",
             "url": "https://clykainc.net/ts.html",
             "title": "Ts",
