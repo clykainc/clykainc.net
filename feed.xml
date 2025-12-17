@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2025-12-07T00:13:19-05:00</updated>
+    <updated>2025-12-07T00:57:29-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -20,14 +20,14 @@
         <updated>2025-12-07T00:12:38-05:00</updated>
             <summary>
                 <![CDATA[
-                    Your Novel Title A living, breathing sci-fi universe — logs, transmissions, and world-building entries released as they’re written. The initial transmission from Europa Station was garbled, but one thing was clear: we are no longer alone… Diving team retrieved a perfectly smooth obsidian shard from&hellip;
+                    Directive 57 A living, breathing sci-fi universe — logs, transmissions, and world-building entries released as they’re written. The initial transmission from Europa Station was garbled, but one thing was clear: we are no longer alone… Diving team retrieved a perfectly smooth obsidian shard from the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <!-- HERO -->
 <section class="chapter-hero">
-<h1>Your Novel Title</h1>
+<h1>Directive 57</h1>
 <br>
 <p class="subtitle">A living, breathing sci-fi universe — logs, transmissions, and world-building entries released as they’re written.</p>
 <a href="#chapters" class="cta">Enter the Archive</a></section>
@@ -95,108 +95,6 @@
 <h3>Downloads</h3>
 <p>Templates, assets &amp; tools</p>
 </a></div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Input</title>
-        <author>
-            <name>Clay</name>
-        </author>
-        <link href="https://clykainc.net/input.html"/>
-        <id>https://clykainc.net/input.html</id>
-
-        <updated>2025-12-06T22:16:28-05:00</updated>
-            <summary>
-                <![CDATA[
-                    Openstax Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3. Visit Openstax → Massive collection of open textbooks. Especially if you are&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div class="timeline">
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>Openstax</h3>
-<p>Library of Openly-licensed, Peer-reviewed educational material for higher education such as Economics to Calculus to Python Programming. In fact while attending community college I used openstax for both Calculus 2 and 3.</p>
-<p> </p>
-<p><a href="https://openstax.org/">Visit Openstax →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>Libretexts</h3>
-<p>Massive collection of open textbooks. Especially if you are interested in STEM related fields like Engineering and Biology.</p>
-<p> </p>
-<p><a href="https://commons.libretexts.org/">Visit LibreTexts commons →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>Merlot</h3>
-<p>Another open-licensed peer-reviewed library of resources with an emphasis on higher education and multimedia materials.</p>
-<p> </p>
-<p><a href="https://merlot.org/merlot/index.htm">Visit MERLOT →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>MIT OpenCourseWare</h3>
-<p>Complete course materials from almost every MIT course since 2002. You find find courses on the arts and theatre to aerospace and quantum mechanics.</p>
-<p> </p>
-<p><a href="https://ocw.mit.edu/">Visit MIT OpenCourseWare →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>OER Commons</h3>
-<p>Huge searchable hub with materials from kindergarten through higher education and workforce training.</p>
-<p> </p>
-<p><a href="https://oercommons.org/">Visit OER commons →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>Khan Academy</h3>
-<p>Can't forget about good ole' Khan Academy. K–12 and some college topics (especially math, science, test prep). They even have cirriculum up to linear algebra, multivariable calculus, and differential equation assistance as well!</p>
-<p> </p>
-<p><a href="https://www.khanacademy.org/">Visit Khan Academy →</a></p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>freeCodeCamp</h3>
-<p>Comprehensive coding curriculum with certifications - completely free</p>
-<p><a href="https://www.freecodecamp.org" target="_blank" class="resource-link" rel="noopener">Visit freeCodeCamp →</a></p>
-<p> </p>
-</div>
-</div>
-<div class="timeline-item">
-<div class="timeline-content">
-<h3>Public Launch</h3>
-<p>Officially live! The product is now available worldwide.</p>
-<p> </p>
-</div>
-</div>
-</div>
-<div class="resource-item">
-<div class="resource-icon"> </div>
-<div class="resource-content">
-<h3>MDN Web Docs</h3>
-<p>Best resource for web development documentation and tutorials</p>
-<a href="https://developer.mozilla.org" target="_blank" class="resource-link" rel="noopener">Visit MDN →</a></div>
-</div>
-<div class="resource-item">
-<div class="resource-icon"> </div>
-<div class="resource-content">
-<h3>The Odin Project</h3>
-<p>Full-stack curriculum with projects to build your portfolio</p>
-<a href="https://www.theodinproject.com" target="_blank" class="resource-link" rel="noopener">Visit The Odin Project →</a></div>
-</div>
-<div class="resource-item">
-<div class="resource-icon"> </div>
-<div class="resource-content"> </div>
-</div>
             ]]>
         </content>
     </entry>
