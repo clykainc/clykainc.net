@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2026-02-24T11:24:31-05:00</updated>
+    <updated>2026-02-24T11:38:35-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -30,7 +30,6 @@
             <![CDATA[
                     <p><img src="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" class="type:primaryImage" alt="" /></p>
                 <p><em>Cover Art: In This Case (1983) - Jean Michel Basquiat</em></p>
-<p> </p>
 <div class="spotlight-box-red">
 <h3 style="margin-top: 0; color: var(--nord1);">Notice</h3>
 <p>This blog post is currently a work in progress. This is not the final revised version of this post.</p>
@@ -55,17 +54,21 @@
         </author>
         <link href="https://clykainc.net/2026-a-year-of-digital-seperation.html"/>
         <id>https://clykainc.net/2026-a-year-of-digital-seperation.html</id>
+        <media:content url="https://clykainc.net/media/posts/20/ablade_glover-market_lanes-1994-obelisk-art-history-32390771-2.webp" medium="image" />
             <category term="Blog"/>
 
         <updated>2026-01-20T14:57:57-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Notice This blog post is currently a work in progress. This is not the final revised version of this post. The irony of the title to this blog post is that I am writing this on a computer and putting it on the internet -&hellip;
+                        <img src="https://clykainc.net/media/posts/20/ablade_glover-market_lanes-1994-obelisk-art-history-32390771-2.webp" alt="" />
+                    Cover Art: Market Lanes (1994) - Ablade Glover This blog post is currently a work in progress. This is not the final revised version of this post. The irony of the title to this blog post is that I am writing this on a computer&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <div class="spotlight-box-red">
+                    <p><img src="https://clykainc.net/media/posts/20/ablade_glover-market_lanes-1994-obelisk-art-history-32390771-2.webp" class="type:primaryImage" alt="" /></p>
+                <p><em>Cover Art: Market Lanes (1994) - Ablade Glover</em></p>
+<div class="spotlight-box-red">
 <h3 style="margin-top: 0; color: var(--nord1);">Notice</h3>
 <p>This blog post is currently a work in progress. This is not the final revised version of this post.</p>
 </div>
