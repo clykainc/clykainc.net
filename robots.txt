@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://clykainc.net/sitemap.xml
+Disallow: /
