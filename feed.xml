@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2026-02-28T20:19:22-05:00</updated>
+    <updated>2026-03-01T10:47:02-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -14,21 +14,18 @@
         <author>
             <name>Clay</name>
         </author>
-        <link href="https://clykainc.net/journaling.html"/>
-        <id>https://clykainc.net/journaling.html</id>
-        <media:content url="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" medium="image" />
+        <link href="https://clykainc.net/journaling/"/>
+        <id>https://clykainc.net/journaling/</id>
             <category term="Blog"/>
 
         <updated>2026-02-17T08:14:27-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" alt="" />
-                    Cover Art: In This Case (1983) - Jean Michel Basquiat A couple of weeks ago I ordered a hobonichi cousin planner. Now while I had wanted one, and had been following users of the community closely since the middle of 2025, the planner itself remained&hellip;
+                    Cover Art: In This Case (1983) - Jean Michel Basquiat A couple of weeks ago I ordered a hobonichi cousin&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" class="type:primaryImage" alt="" /></p>
                 <p><em>Cover Art: In This Case (1983) - Jean Michel Basquiat</em></p>
 <hr class="nordic-line">
 <div class="log-header">
@@ -47,8 +44,8 @@
         <author>
             <name>Clay</name>
         </author>
-        <link href="https://clykainc.net/2026-a-year-of-digital-seperation.html"/>
-        <id>https://clykainc.net/2026-a-year-of-digital-seperation.html</id>
+        <link href="https://clykainc.net/2026-a-year-of-digital-seperation/"/>
+        <id>https://clykainc.net/2026-a-year-of-digital-seperation/</id>
         <media:content url="https://clykainc.net/media/posts/20/ablade_glover-market_lanes-1994-obelisk-art-history-32390771-2.webp" medium="image" />
             <category term="Blog"/>
 
@@ -56,7 +53,7 @@
             <summary type="html">
                 <![CDATA[
                         <img src="https://clykainc.net/media/posts/20/ablade_glover-market_lanes-1994-obelisk-art-history-32390771-2.webp" alt="" />
-                    Cover Art: Market Lanes (1994) - Ablade Glover This blog post is currently a work in progress. This is not the final revised version of this post. The irony of the title to this blog post is that I am writing this on a computer&hellip;
+                    Cover Art: Market Lanes (1994) - Ablade Glover This blog post is currently a work in progress. This is not&hellip;
                 ]]>
             </summary>
         <content type="html">
