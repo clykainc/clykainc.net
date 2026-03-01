@@ -3,7 +3,7 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>2026-03-01T10:47:02-05:00</updated>
+    <updated>2026-03-01T10:50:21-05:00</updated>
     <author>
         <name>Clay</name>
     </author>
@@ -16,16 +16,19 @@
         </author>
         <link href="https://clykainc.net/journaling/"/>
         <id>https://clykainc.net/journaling/</id>
+        <media:content url="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" medium="image" />
             <category term="Blog"/>
 
         <updated>2026-02-17T08:14:27-05:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" alt="" />
                     Cover Art: In This Case (1983) - Jean Michel Basquiat A couple of weeks ago I ordered a hobonichi cousin&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://clykainc.net/media/posts/21/In-This-Case.jpg.webp" class="type:primaryImage" alt="" /></p>
                 <p><em>Cover Art: In This Case (1983) - Jean Michel Basquiat</em></p>
 <hr class="nordic-line">
 <div class="log-header">
