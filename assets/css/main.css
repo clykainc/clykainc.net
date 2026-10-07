@@ -112,7 +112,8 @@ h1, h2, h3, h4 { font-family: var(--display); margin: 0; line-height: 1.05; }
 
 /* ---------- Hero ---------- */
 .hero { padding: 40px 0 8px; }
-.hero h1 { font-weight: 900; font-stretch: 125%; font-size: clamp(2.6rem, 8.6vw, 7rem); line-height: .95; letter-spacing: -0.01em; text-transform: uppercase; max-width: 13ch; }
+.hero .wrap, .sec-head, .post-racing .post-head { container-type: inline-size; }
+.hero h1 { font-weight: 900; font-stretch: 125%; font-size: clamp(2.2rem, 8.6vw, 7rem); font-size: clamp(2.2rem, 9.6cqi, 7rem); line-height: .95; letter-spacing: -0.01em; text-transform: uppercase; max-width: 15ch; text-wrap: balance; }
 .hero-intro { max-width: 33rem; margin: 30px 0 0; font-size: 1.18rem; color: var(--text-soft); }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
 .livery { display: block; width: 100%; height: auto; margin-top: 44px; overflow: visible; }
@@ -222,7 +223,7 @@ h1, h2, h3, h4 { font-family: var(--display); margin: 0; line-height: 1.05; }
 /* ---------- Section pages ---------- */
 .sec-head { padding-top: 40px; }
 .sec-head .bar { width: 72px; height: 8px; background: var(--accent); margin-bottom: 20px; }
-.sec-head h1 { font-weight: 900; font-stretch: 125%; text-transform: uppercase; font-size: clamp(2.6rem, 9vw, 6rem); line-height: .92; }
+.sec-head h1 { font-weight: 900; font-stretch: 125%; text-transform: uppercase; font-size: clamp(2.2rem, 9vw, 6rem); font-size: clamp(2.2rem, 10cqi, 6rem); line-height: .92; }
 .sec-head .intro { max-width: 36rem; color: var(--text-soft); font-size: 1.18rem; margin-top: 18px; }
 .sec-head .intro p { margin: 0 0 .6em; }
 .sec-water { --accent: var(--blue); }
@@ -319,7 +320,7 @@ h1, h2, h3, h4 { font-family: var(--display); margin: 0; line-height: 1.05; }
 
 /* Racing (default) */
 .post-racing { --accent: var(--orange); }
-.post-racing .post-head h1 { font-weight: 900; font-stretch: 125%; text-transform: uppercase; font-size: clamp(2.2rem, 6.4vw, 4.4rem); line-height: .97; letter-spacing: -.01em; max-width: 16ch; }
+.post-racing .post-head h1 { font-weight: 900; font-stretch: 125%; text-transform: uppercase; font-size: clamp(2rem, 6.4vw, 4.4rem); font-size: clamp(2rem, 9.5cqi, 4.4rem); line-height: .97; letter-spacing: -.01em; max-width: 16ch; text-wrap: balance; }
 .post-racing .entry h2::before, .post-water .entry h2::before { content: ""; display: block; width: 44px; height: 6px; background: var(--accent); margin-bottom: 14px; }
 .glance { background: var(--asphalt); color: var(--bone); padding: 24px; margin: 2.4em 0 0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .glance { background: var(--panel); } }

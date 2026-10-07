@@ -3,10 +3,34 @@
     <title>Clykainc</title>
     <link href="https://clykainc.net/feed.xml" rel="self" />
     <link href="https://clykainc.net" />
-    <updated>1969-12-31T19:00:00-05:00</updated>
+    <updated>2026-10-07T19:21:07-04:00</updated>
     <author>
         <name>Nicholas Clay</name>
     </author>
     <id>https://clykainc.net</id>
 
+    <entry>
+        <title>Test Test Post</title>
+        <author>
+            <name>Nicholas Clay</name>
+        </author>
+        <link href="https://clykainc.net/test-test-post/"/>
+        <id>https://clykainc.net/test-test-post/</id>
+
+        <updated>2026-10-07T19:21:07-04:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Test post</title>
+        <author>
+            <name>Nicholas Clay</name>
+        </author>
+        <link href="https://clykainc.net/test-post/"/>
+        <id>https://clykainc.net/test-post/</id>
+
+        <updated>2026-10-07T19:18:58-04:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
 </feed>
